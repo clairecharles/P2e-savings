@@ -1,12 +1,48 @@
-# React + Vite
+# Savings Group Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple web application that helps manage a student savings group. It allows students to register into savings tiers, calculates their weekly interest and total savings, and shows an overview of all registered members.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup Instructions
 
-## Expanding the ESLint configuration
+Built with [react app](https://reactjs.org/) using [vite](https://vitejs.dev/). To get started, follow these steps:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone this repo 
+2. In your local dev environment `npm install` to install all the dependencies
+3. Run `npm run dev` to start the application 
+4. Now you should be able to visit the app at http://localhost:5173/
+
+## How to Use the App
+1. **Start the App**:
+    Run it using your local development server (e.g., npm run dev if using Vite, or npm start if using CRA).
+
+2. **Welcome Page**:
+     You'll first see a welcome screen. Click "Get Started" to proceed.
+
+3. **Register a Student**:
+      Enter the student’s name.
+
+- Select a tier:
+
+   - Tier 1: ₦10,000 — 5% interest
+
+   - Tier 2: ₦20,000 — 10% interest
+
+   - Tier 3: ₦30,000 — 20% interest
+
+- See calculated interest and total return.
+
+- Click Join to add them to the group.
+
+4. **View the Dashboard**: Once a student joins, you'll see a dashboard with:
+
+- All students and their details.
+
+- Total group savings.
+
+- Students can withdraw their balance, and that takes them out of the saving group
+
+5. **Add More Students**:
+
+- If the group isn’t full (less than 12 members), click “Add More Students” to bring back the registration form.
+
