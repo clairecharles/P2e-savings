@@ -1,0 +1,102 @@
+.app {
+  margin: auto;
+background-color: rgb(220, 228, 239);  
+ background-size: cover;
+width: 100vw;
+height: 100vh;
+margin: auto;
+padding: 20px;
+}
+.app2{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+}
+
+.flex{
+  display: flex;
+  justify-content: space-around;
+ flex-direction: row-reverse;
+}
+.container2 {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+nav button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+input, select {
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+}
+
+.form{
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.students{
+  padding: 4px 1px;
+  background-color: #2841a7;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+button {
+  padding: 10px 15px;
+  background-color: #2841a7;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+
+
+th[scope="row"] {
+  background-color: #d6ecd4;
+}
+
+td {
+  text-align: center;
+}
+
+
+table {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  margin: auto;
+  letter-spacing: 1px;
+
+}
+
+
